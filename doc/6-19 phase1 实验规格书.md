@@ -30,7 +30,7 @@
 
 ### 2.1 推荐数据集
 
-基于训练集调研（文档 23），推荐使用：
+基于训练集调研，推荐使用：
 
 **方案 A（极简）**：~3,000 samples
 - LIMR-1.4K（1,389 条数学）+ NQ subset（1,500 条搜索）
@@ -41,7 +41,7 @@
 
 **数据格式要求**：`{question: str, result/answer: str, source: str}`--与flow-grpo对其
 
-<font color="#ff0000">【todo】</font>
+<font color="#ff0000">【todo】</font>：训练集如何选择
 
 ### 2.2 验证与评估数据
 
@@ -50,7 +50,7 @@
 | 训练中验证 | AIME24       | 30 题       |
 | 最终评估  | 4 benchmarks | motivation |
 |       |              |            |
-<font color="#ff0000">【todo】</font>
+<font color="#ff0000">【todo】</font>；bechmarks是否合适--详情看下面有具体分析
 
 ---
 
